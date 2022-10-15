@@ -61,9 +61,10 @@ body {
 
 .line-itens {
   background-color: lightblue;
-  display: flex;
-  overflow-x: hidden;
   width: 100%;
+
+  display: flex;
+  overflow-x: scroll;
 }
 .model-box {
   background-color: #ffffff;
@@ -86,6 +87,10 @@ body {
   height: 87px;
   width: 144px;
   border-radius: 4px;
+}
+
+.barreira {
+  display: flexbox;
 }
 
 h3 {
