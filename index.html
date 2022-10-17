@@ -24,34 +24,61 @@
         <h2>Primeiro, seu prato</h2>
         <div class="line-itens">
 
-          <div onclick="pratoPrincipal()" class="model-box">
-            <div>
-              <img src="./assets/img/frango_yin_yang 1.png" alt="Frango Yin Yang">
-              <h3>Frango Yin Yang</h3>
-              <p>Umpouco de batata, um pouco de salada</p>
-              <h4>R$ 14,90</h4>
-            </div>
+
+
+
+
+
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="prato" id="frango" value="14.90">
+            <label for="frango">
+              <div>
+                <img src="./assets/img/frango_yin_yang 1.png" alt="Frango Yin Yang">
+                <h3>Frango Yin Yang</h3>
+                <p>Umpouco de batata, um pouco de salada</p>
+                <div class="valor-check">
+                  <h4>R$ 14,90</h4>
+                </div>
+              </div>
+            </label>
           </div>
+
+
+
           <!--end model-box-->
 
-          <div onclick="pratoPrincipal()" class="model-box">
-            <div>
-              <img src="./assets/img/temakin.png" alt="Temaki em dobro">
-              <h3>Temaki em dobro</h3>
-              <p>Dois peixes,<br> em uma fisgada</p>
-              <h4>R$ 39,90</h4>
-            </div>
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="prato" id="temaki" value="39.90">
+            <label for="temaki">
+              <div>
+                <img src="./assets/img/temakin.png" alt="Temaki em dobro">
+                <h3>Temaki em dobro</h3>
+                <p>Dois peixes,<br> em uma fisgada</p>
+                <div class="valor-check">
+                  <h4>R$ 14,90</h4>
+                </div>
+              </div>
+            </label>
           </div>
+
+
           <!--end model-box-->
 
-          <div onclick="pratoPrincipal()" class="model-box">
-            <div>
-              <img src="./assets/img/yakisoba_vegetariano.png" alt="Yakisoba Vegetarianodo">
-              <h3>Yakisoba Vegano</h3>
-              <p>0 glútem, 0 lactose, tome 2 rolinhos</p>
-              <h4>R$ 28,00</h4>
-            </div>
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="prato" id="yakisoba" value="28.00">
+            <label for="yakisoba">
+              <div>
+                <img src="./assets/img/yakisoba_vegetariano.png" alt="Yakisoba Vegetarianodo">
+                <h3>Yakisoba Vegano</h3>
+                <p>0 glútem, 0 lactose, tome 2 rolinhos</p>
+                <div class="valor-check">
+                  <h4>R$ 28,00</h4>
+                </div>
+              </div>
+            </label>
           </div>
+
+
           <!--end model-box-->
 
         </div>
@@ -66,34 +93,54 @@
         <h2>Agora, sua bebida</h2>
         <div class="line-itens">
 
-          <div onclick="bebida()" class="model-box">
-            <div>
-              <img src="./assets/img/coquinha_gelada 1.png" alt="coca cola">
-              <h3>Coquinha gelada</h3>
-              <p>lata 350ml</p>
-              <h4>R$ 4,90</h4>
-            </div>
-          </div>
-          <!--end model-box-->
 
-          <div onclick="bebida()" class="model-box">
-            <div class="barreira">
-              <img src="./assets/img/agua.png" alt="água">
-              <h3>Água 99% hidratada</h3>
-              <p>garrafa 500ml</p>
-              <h4>R$ 2,50</h4>
-            </div>
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="bebida" id="coca" value="4.90">
+            <label for="coca">
+              <div>
+                <img src="./assets/img/coquinha_gelada 1.png" alt="coca cola">
+                <h3>Coquinha gelada</h3>
+                <p>lata 350ml</p>
+                <div class="valor-check">
+                  <h4>R$ 4,90</h4>
+                </div>
+              </div>
+            </label>
           </div>
-          <!--end model-box-->
 
-          <div onclick="bebida()" class="model-box">
-            <div class="barreira">
-              <img src="./assets/img/heineken.png" alt="Heineken ">
-              <h3>Premium Quality</h3>
-              <p>lata 350ml</p>
-              <h4>R$ 9,90</h4>
-            </div>
+
+          <!--end model-box-->
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="bebida" id="agua" value="2.50">
+            <label for="agua">
+              <div>
+                <img src="./assets/img/agua.png" alt="água">
+                <h3>Água 99% hidratada</h3>
+                <p>garrafa 500ml</p>
+                <div class="valor-check">
+                  <h4>R$ 2,50</h4>
+                </div>
+              </div>
+            </label>
           </div>
+
+
+          <!--end model-box-->
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="bebida" id="heineken" value="9.90">
+            <label for="heineken">
+              <div>
+                <img src="./assets/img/heineken.png" alt="Heineken ">
+                <h3>Premium Quality</h3>
+                <p>lata 350ml</p>
+                <div class="valor-check">
+                  <h4>R$ 9,90</h4>
+                </div>
+              </div>
+            </label>
+          </div>
+
+
           <!--end model-box-->
 
         </div>
@@ -108,36 +155,57 @@
         <h2>Por fim, sua sobremesa</h2>
         <div class="line-itens">
 
-          <div onclick="sobremesa()" class="model-box">
-            <div>
-              <img src="./assets/img/pudim 1.png" alt="Pudim de leite">
-              <h3>Pudim</h3>
-              <p>Apenas pudim seria pouco para descrever
-              </p>
-              <h4>R$ 7,90</h4>
-            </div>
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="sobremesa" id="pudim" value="7.90">
+            <label for="pudim">
+              <div>
+                <img src="./assets/img/pudim 1.png" alt="Pudim de leite">
+                <h3>Pudim</h3>
+                <p>Apenas pudim seria pouco para descrever
+                </p>
+                <div class="valor-check">
+                  <h4>R$ 7,90</h4>
+                </div>
+              </div>
+            </label>
           </div>
+
+
           <!--end model-box-->
 
-          <div onclick="sobremesa()" class="model-box">
-            <div>
-              <img src="./assets/img/moti_icecream.png" alt="Moti recheado de sorvete">
-              <h3>Moti ice cream</h3>
-              <p>Massa de arroz e sorvete gostoso</p>
-              <h4>R$ 5,00</h4>
-            </div>
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="sobremesa" id="mochi" value="5.00">
+            <label for="mochi">
+              <div>
+                <img src="./assets/img/moti_icecream.png" alt="Motchi recheado de sorvete">
+                <h3>Mochi ice cream</h3>
+                <p>Massa de arroz e sorvete gostoso</p>
+                <div class="valor-check">
+                  <h4>R$ 5,00</h4>
+                </div>
+              </div>
+            </label>
           </div>
+
+
           <!--end model-box-->
 
-          <div onclick="sobremesa()" class="model-box">
-            <div>
-              <img src="./assets/img/talento.png" alt="Barra de chocolate talento 25g ">
-              <h3>Talento</h3>
-              <p>Ninguém dirá que você não tem
-              </p>
-              <h4>R$ 3,90</h4>
-            </div>
+          <div onclick="selectorOnClick()" class="custom-checkbox model-box">
+            <input type="radio" name="sobremesa" id="talento" value="3.90">
+            <label for="talento">
+              <div>
+                <img src="./assets/img/talento.png" alt="Barra de chocolate talento 25g ">
+                <h3>Talento</h3>
+                <p>Ninguém dirá que você não tem
+                </p>
+                <div class="valor-check">
+                  <h4>R$ 3,90</h4>
+                </div>
+              </div>
+            </label>
           </div>
+
+
           <!--end model-box-->
 
         </div>
@@ -153,16 +221,22 @@
     </div>
 
     <div class="footer">
-      <button>
+
+
+      <button onclick="buttonConferirPedido()" id="fechar-pedido">
         Selecione os 3 itens <br>
         para fechar o pedido
       </button>
+
     </div>
 
 
   </div>
 
   <script src="./script/script.js"></script>
+  <!--
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  -->
 </body>
 
 </html>
